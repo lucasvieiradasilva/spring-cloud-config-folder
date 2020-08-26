@@ -1,12 +1,13 @@
 spring: 
    datasource:
-      username: teste
-      password: teste
-      url: jdbc:h2:mem:testdb
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      url: jdbc:postgresql://localhost:5432/unnamed
    jpa:
       properties:
          hibernate.show_sql: true
          hibernate.format_sql: true
       hibernate:
          ddl-auto: create-drop
-         database-platform: org.hibernate.dialect.H2Dialect
+         database-platform: org.hibernate.dialect.PostgreSQLDialect
