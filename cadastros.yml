@@ -11,3 +11,18 @@ spring:
       hibernate:
          ddl-auto: create-drop
          database-platform: org.hibernate.dialect.PostgreSQLDialect
+         
+         
+#spring: 
+#   datasource:
+#      driverClassName: org.postgresql.Driver
+#      username: postgres
+#      password: postgres
+#      url: jdbc:postgresql://localhost:5432/unnamed
+#   jpa:
+#      properties:
+#         hibernate.show_sql: true
+#         hibernate.format_sql: true
+#      hibernate:
+#         ddl-auto: create-drop
+#         database-platform: org.hibernate.dialect.PostgreSQLDialect
