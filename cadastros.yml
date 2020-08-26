@@ -9,5 +9,5 @@ spring:
          hibernate.show_sql: true
          hibernate.format_sql: true
       hibernate:
-         ddl-auto: upgrade
+         ddl-auto: update
          database-platform: org.hibernate.dialect.PostgreSQLDialect
